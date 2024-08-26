@@ -1,0 +1,362 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    margin: 0;
+}
+
+.header a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    margin: 15px 0px 0px 0px;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.success-message {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.error-message {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.posts-container {
+    width: 100%;
+}
+
+.posts-container h2 {
+    text-align: center;
+}
+
+.post {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.post h3 {
+    margin-top: 0;
+}
+
+.post p {
+    margin: 10px 0;
+}
+
+.post a {
+    margin-right: 10px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+/* Add this to styles.css */
+.show-add-post-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.show-add-post-btn:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+/* Thêm nút thêm người dùng */
+.show-add-post-btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.show-add-post-btn:hover {
+    background-color: #45a049;
+}
+
+/* Đổi màu nút xóa */
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #e53935;
+}
+
+/* Đổi màu nút sửa */
+.edit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding:10px;
+}
+
+.edit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Thêm nút thêm người dùng */
+.show-add-post-btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.show-add-post-btn:hover {
+    background-color: #45a049;
+}
+
+/* Đổi màu nút xóa */
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #e53935;
+}
+
+/* Đổi màu nút sửa */
+.edit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Thêm nút thêm người dùng */
+.show-add-post-btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.show-add-post-btn:hover {
+    background-color: #45a049;
+}
+
+/* Đổi màu nút xóa */
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #e53935;
+}
+
+/* Đổi màu nút sửa */
+.edit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Bố cục bảng người dùng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    vertical-align: middle; /* Căn giữa dọc cho các ô */
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td form {
+    display: flex; /* Sử dụng flexbox để căn giữa các phần tử bên trong ô */
+    align-items: center;
+    justify-content: space-between;
+}
+
+td form input,
+td form button {
+    margin: 0;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+td form button {
+    display: inline-block;
+}
+
+td form input[type="text"],
+td form input[type="email"],
+td form input[type="password"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+/* CSS for the buttons in add-user.php */
+/* Định dạng cho button-group */
+.button-group {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Khoảng cách giữa các nút */
+}
+
+/* Định dạng chung cho các nút */
+button, .cancel-btn {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px; /* Thêm padding để đảm bảo kích thước nút đồng đều */
+}
+
+/* Định dạng cho nút Thêm */
+button {
+    background-color: #4CAF50;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Định dạng cho nút Hủy */
+.cancel-btn {
+    background-color: #f44336;
+    text-decoration: none;
+    display: inline-flex; /* Đảm bảo nút hiển thị inline với button */
+    align-items: center; /* Căn giữa nội dung theo chiều dọc */
+    justify-content: center; /* Căn giữa nội dung theo chiều ngang */
+    margin: 15px 0px 0px 0px;
+}
+
+.cancel-btn:hover {
+    background-color: #e53935;
+}
